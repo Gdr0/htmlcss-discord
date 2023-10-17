@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Whitney, ‘Helvetica Neue’, Helvetica, Arial, sans-serif;
+}
+header {
+  background-image: url(img/jumbo.png);
+  background-size: 100%;
+}
+.box-header {
+  min-height: 50px;
+  display: flex;
+  justify-content: center;
+  /* DEBUG */
+  /* background-color: aquamarine; */
+}
+.box {
+  width: 80%;
+  margin: 5px;
+  display: flex;
+  justify-content: space-between;
+  /* DEBUG */
+  min-height: 40px;
+  /* background-color: coral; */
+}
+
+.logo {
+  flex-basis: 25%;
+  display: flex;
+  justify-content: center;
+}
+
+.link {
+  flex-basis: 50%;
+  align-self: center;
+  display: flex;
+  justify-content: space-around;
+}
+.decoration {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+.login {
+  flex-basis: 25%;
+  text-align: center;
+  align-self: center;
+}
+.accesso {
+  width: 60px;
+  height: 25px;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 50px 0 50px 0;
+  /* DEBUG */
+  width: 100%;
+}
+/* sezione 2 */
+/* .blu {
+  min-height: 400px;
+   DEBUG 
+  background-color: darkblue; 
+} */
+.intro {
+  /* DEBUG */
+  /* background-color: palevioletred; */
+  width: 40%;
+}
+.titolo {
+  font-size: 50px;
+  color: white;
+  margin-bottom: 30px;
+}
+.descrizione {
+  font-size: 18px;
+  color: white;
+  font-weight: 900;
+}
+.centrato {
+  text-align: center;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.collegamenti {
+  margin: 20px;
+  width: 200px;
+  height: 50px;
+  border-radius: 15px;
+  font-size: 15px;
+  font-weight: 500;
+}
+.black {
+  background-color: black;
+  color: white;
+}
+.white {
+  background-color: white;
+  color: black;
+}
+/* sezione 2 */
+
+/* sezione 2/4 */
+.bianco {
+  /* DEBUG */
+  min-height: 450px;
+  background-color: white;
+}
+.box-doppio {
+  display: flex;
+  justify-content: center;
+  /* DEBUG */
+  width: 70%;
+}
+.pink {
+  /* DEBUG */
+  background-color: pink;
+  flex-basis: 60%;
+}
+
+.sky {
+  /* DEBUG */
+  background-color: deepskyblue;
+  flex-basis: 40%;
+}
+/* sezione2/4 */
+/* sezione3 */
+.grigio {
+  /* DEBUG */
+  min-height: 450px;
+  background-color: lightgray;
+}
+/* sezione4 */
+/* sezione5 */
+.green {
+  /* DEBUG*/
+  height: 500px;
+  width: 70%;
+  background-color: green;
+}
+/* sezione 5 */
+
+/* FOOTER */
+/* sezione 1 */
+.sezione1 {
+  padding: 10px 0 30px 20px;
+  background-color: darkslategrey;
+  border-bottom: solid white 1px;
+  /* BORDER */
+  min-height: 400px;
+}
+
+.coral {
+  background-color: lightcoral;
+  flex-basis: 30%;
+}
+.column {
+  flex-basis: 25%;
+  border-style: dotted;
+}
+.container_cyan {
+  display: flex;
+  justify-content: center;
+  background-color: cyan;
+  flex-basis: 70%;
+  /* DEBUG */
+  width: 100%;
+}
+/* sezione 2 */
+.sezione2 {
+  min-height: 5px;
+  background-color: darkslategrey;
+  padding: 10px 0 0 0;
+}
+
+.fine {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* DEBUG*/
+  background-color: cyan;
+  width: 70%;
+  min-height: 40px;
+}
+/* sezione 2 */
