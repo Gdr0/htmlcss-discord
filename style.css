@@ -137,17 +137,31 @@ header {
 /* sezione2/4 */
 /* sezione3 */
 .grigio {
-  /* DEBUG */
-  min-height: 450px;
   background-color: lightgray;
 }
 /* sezione4 */
 /* sezione5 */
-.green {
-  /* DEBUG*/
-  height: 500px;
+.descrizione_chilling {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.title_chilling {
+  width: 850px;
+  font-size: 40px;
+  font-weight: 900;
+  text-align: center;
+}
+.text_chilling {
+  width: 850px;
+  text-align: center;
+}
+
+.chilling {
   width: 70%;
-  background-color: green;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 /* sezione 5 */
 
