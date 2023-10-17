@@ -12,9 +12,8 @@ header {
   min-height: 50px;
   display: flex;
   justify-content: center;
-  /* DEBUG */
-  /* background-color: aquamarine; */
 }
+
 .box {
   width: 80%;
   margin: 5px;
@@ -61,17 +60,11 @@ header {
   /* DEBUG */
   width: 100%;
 }
-/* sezione 2 */
-/* .blu {
-  min-height: 400px;
-   DEBUG 
-  background-color: darkblue; 
-} */
+
 .intro {
-  /* DEBUG */
-  /* background-color: palevioletred; */
   width: 40%;
 }
+
 .titolo {
   font-size: 50px;
   color: white;
@@ -111,27 +104,36 @@ header {
 
 /* sezione 2/4 */
 .bianco {
-  /* DEBUG */
   min-height: 450px;
   background-color: white;
 }
 .box-doppio {
+  margin-top: 80px;
   display: flex;
   justify-content: center;
-  /* DEBUG */
   width: 70%;
 }
-.pink {
-  /* DEBUG */
-  background-color: pink;
+.img_study {
+  background-color: white;
   flex-basis: 60%;
 }
 
-.sky {
-  /* DEBUG */
-  background-color: deepskyblue;
+.description {
+  background-color: white;
   flex-basis: 40%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
 }
+.title {
+  width: 290px;
+  font-size: 40px;
+  font-weight: 900;
+}
+.text {
+  width: 290px;
+}
+
 /* sezione2/4 */
 /* sezione3 */
 .grigio {
